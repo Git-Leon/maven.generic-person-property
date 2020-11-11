@@ -1,7 +1,7 @@
 package com.github.curriculeon;
 
 
-public class PersonProperty {
+public class PersonProperty<_> {
     // TODO - declare field
 
     public PersonProperty() {
@@ -17,5 +17,9 @@ public class PersonProperty {
 
     public Object getValue() {
         return null; // TODO - return field-value
+    }
+
+    public void printValue() {
+        // TODO - print field-value to standard-out
     }
 }
